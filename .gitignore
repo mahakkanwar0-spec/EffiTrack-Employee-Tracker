@@ -1,0 +1,18 @@
+# Personal employee data
+data/
+
+# ML model files (large binaries)
+ml/burnout/burnout_model.pkl
+ml/score/score_model.pkl
+ml/personality/personality_model.pkl
+
+# Environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+Frontend/.streamlit/secrets.toml
+config.py
