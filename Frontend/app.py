@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 from styles import load_css
 
+BACKEND_URL = st.secrets["BACKEND_URL"]
 API_BASE = "http://localhost:8000"
 
 st.set_page_config(

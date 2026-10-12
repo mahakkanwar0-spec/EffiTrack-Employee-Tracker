@@ -1,18 +1,23 @@
+# API / backend
 fastapi
 uvicorn[standard]
 motor
 pymongo
 pydantic
+python-multipart
 
-streamlit
-requests
-plotly
-
-scikit-learn
-pandas
-
+# Authentication / security
 passlib[bcrypt]
 python-jose[cryptography]
 
+# AI / env config
 google-genai
 python-dotenv
+
+# Frontend / data visualization
+streamlit
+requests
+plotly
+pandas
+numpy
+scikit-learn
