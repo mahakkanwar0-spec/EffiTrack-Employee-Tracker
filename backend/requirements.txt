@@ -14,10 +14,7 @@ python-jose[cryptography]
 google-genai
 python-dotenv
 
-# Frontend / data visualization
-streamlit
-requests
-plotly
+# Backend machine learning
 pandas
 numpy
 scikit-learn
