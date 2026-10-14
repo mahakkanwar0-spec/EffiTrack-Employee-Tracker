@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://localhost:8000"
+# API_BASE = "http://localhost:8000"
+API_BASE = st.secrets["BACKEND_URL"].rstrip("/")
 
 
 def api_get(endpoint: str) -> requests.Response:

@@ -3,8 +3,10 @@ import asyncio
 from pathlib import Path
 from motor.motor_asyncio import AsyncIOMotorClient
 
-MONGO_URI   = "mongodb://localhost:27017"
-DB_NAME     = "Effitrack-db"
+import os
+
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("DB_NAME", "effitrack")
 DATA_FOLDER = "data"
 
 
