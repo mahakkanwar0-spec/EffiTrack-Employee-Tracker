@@ -5,7 +5,8 @@ import plotly.express as px
 from concurrent.futures import ThreadPoolExecutor
 from styles import dark_chart_layout
 
-API_BASE = "http://localhost:8000"
+# API_BASE = "http://localhost:8000"
+API_BASE = st.secrets["BACKEND_URL"].rstrip("/")
 
 ENDPOINTS = {
     "emp":  "",
